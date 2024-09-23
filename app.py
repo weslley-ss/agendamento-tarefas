@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, render_template, request, jsonify
 import json
 # API DE AGENDAMENTO DE TAREFAS FLASK
 
@@ -15,7 +15,7 @@ app = Flask(__name__)
 # INDEX
 @app.route('/', methods=['GET'])
 def index():
-    return "Seja Bem vindo a API de agendamente de tarefas com Flask"
+    return render_template('index.html')
 
 # TODAS TAREFAS
 @app.route('/tarefas', methods=['GET'])

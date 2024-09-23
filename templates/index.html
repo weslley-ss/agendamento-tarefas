@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de Agendamento de Tarefas</title>
+    <!-- Bootstrap CSS (usando CDN) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <h1 class="mt-5 text-light">Bem-vindo à API de Agendamento de Tarefas</h1>
+        <h2 class="mt-4 text-light">Rotas Disponíveis:</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="/tarefas">GET /tarefas</a> - Retorna todas as tarefas</li>
+            <li class="list-group-item"><a href="/tarefas/<id>">GET /tarefas/&lt;id&gt;</a> - Retorna a tarefa pelo ID</li>
+            <li class="list-group-item"><a href="/add">POST /add</a> - Adiciona uma nova tarefa</li>
+            <li class="list-group-item"><a href="/tarefas/<id>">PUT /tarefas/&lt;id&gt;</a> - Atualiza uma tarefa pelo ID</li>
+            <li class="list-group-item"><a href="/tarefas/<id>">PATCH /tarefas/&lt;id&gt;</a> - Atualiza uma das informações da tarefa pelo ID</li>
+            <li class="list-group-item"><a href="/tarefas/<id>">DELETE /tarefas/&lt;id&gt;</a> - Remove uma tarefa pelo ID</li>
+            <li class="list-group-item"><a href="/restart">GET /restart</a> - Reinicia os dados</li>
+        </ul>
+    </div>
+
+    <!-- Bootstrap JS e dependências (usando CDN) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
