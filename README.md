@@ -9,5 +9,5 @@ https://agendamento-tarefas.onrender.com/)
 
 ## Próximas implementações:
 1. Documentação com Swagger
-2. Desing frontend 
+2. Design frontend 
 3. Manipulação das tarefas pelo navegador/frontend
